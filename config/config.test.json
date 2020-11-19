@@ -1,0 +1,7 @@
+{
+  "env": "test",
+  "codePushKey": {
+    "ios": "kzy_BcFI95bMuHbi39hHr00Yah9pSJOYIt6q4",
+    "android": "xB6cS0oBcbBwK70eByeJFGaRdCHJSyk6QKp9N"
+  }
+}

@@ -6,8 +6,12 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "start:dev": "npm run create:config dev && npm run start",
+    "start:test": "npm run create:config test && npm run start",
+    "start:prod": "npm run create:config prod && npm run start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "create:config": "node build.js"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.1",
