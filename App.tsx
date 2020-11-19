@@ -24,10 +24,17 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+import ChatView from 'components/ChatView'
+import Button from 'element/Button'
+import Icon from 'element/Icon'
+
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
+      <ChatView />
+      <Button />
+      <Icon />
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
