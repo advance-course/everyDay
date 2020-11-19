@@ -9,5 +9,6 @@ module.exports = {
         "element": "./src/components/element"
       }
     }],
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
   ]
 };

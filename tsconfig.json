@@ -17,7 +17,8 @@
       "*": ["src/*"],
       "components/*": ["src/components/*"],
       "element/*": ["src/components/element/*"]
-    }
+    },
+    "experimentalDecorators": true
   },
   "exclude": [
     "node_modules",
