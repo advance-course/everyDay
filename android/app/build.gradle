@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.everyday"
+        applicationId "com.everyday2"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

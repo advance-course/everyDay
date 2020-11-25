@@ -6,12 +6,12 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "create:config": "node build.js",
     "start:dev": "npm run create:config dev && npm run start",
     "start:test": "npm run create:config test && npm run start",
     "start:prod": "npm run create:config prod && npm run start",
     "test": "jest",
-    "lint": "eslint .",
-    "create:config": "node build.js"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
     "@react-native-community/async-storage": "^1.12.1",
@@ -19,24 +19,33 @@
     "react-native": "0.63.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.3",
+    "@babel/core": "^7.8.4",
     "@babel/plugin-proposal-decorators": "^7.12.1",
-    "@babel/runtime": "^7.12.5",
-    "@react-native-community/eslint-config": "^2.0.0",
-    "@types/jest": "^26.0.15",
-    "@types/react": "^16.9.56",
-    "@types/react-native": "^0.63.35",
-    "@types/react-test-renderer": "^16.9.3",
-    "babel-jest": "^26.6.3",
+    "@babel/runtime": "^7.8.4",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "@types/jest": "^25.2.3",
+    "@types/react-native": "^0.63.2",
+    "@types/react-test-renderer": "^16.9.2",
+    "@typescript-eslint/eslint-plugin": "^2.27.0",
+    "@typescript-eslint/parser": "^2.27.0",
+    "babel-jest": "^25.1.0",
     "babel-plugin-module-resolver": "^4.0.0",
-    "eslint": "^7.13.0",
-    "jest": "^26.6.3",
-    "metro-react-native-babel-preset": "^0.64.0",
+    "eslint": "^6.5.1",
+    "jest": "^25.1.0",
+    "metro-react-native-babel-preset": "^0.59.0",
     "react-test-renderer": "16.13.1",
     "reactotron-react-native": "^5.0.0",
-    "typescript": "^4.0.5"
+    "typescript": "^3.8.3"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
   }
 }

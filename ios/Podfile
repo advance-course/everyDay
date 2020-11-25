@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'everyDay' do
+target 'everyDay2' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'everyDayTests' do
+  target 'everyDay2Tests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'everyDay' do
   end
 end
 
-target 'everyDay-tvOS' do
-  # Pods for everyDay-tvOS
+target 'everyDay2-tvOS' do
+  # Pods for everyDay2-tvOS
 
-  target 'everyDay-tvOSTests' do
+  target 'everyDay2-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

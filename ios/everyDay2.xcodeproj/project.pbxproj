@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* everyDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* everyDayTests.m */; };
+		00E356F31AD99517003FC87E /* everyDay2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* everyDay2Tests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* everyDayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* everyDayTests.m */; };
-		623201A36B41A9D5A833638A /* libPods-everyDay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EE622A8D88898AA3D74F50 /* libPods-everyDay.a */; };
-		6356492401291AE324221FF3 /* libPods-everyDay-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 186F4521FD30C1F4923C7AFE /* libPods-everyDay-tvOSTests.a */; };
-		74361D9E38ED36EDCEB42589 /* libPods-everyDay-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1B6417760CE9EF6ACBCCCD /* libPods-everyDay-tvOS.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* everyDay2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* everyDay2Tests.m */; };
+		3108849AE9204B57C3142E13 /* libPods-everyDay2-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0177DC5CEFC3A7A49647AA2F /* libPods-everyDay2-tvOS.a */; };
+		4D8B65F38D912F72CD39D414 /* libPods-everyDay2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A6FDF03D74AFAD3F9F2DCE /* libPods-everyDay2.a */; };
+		718621C4CCE1BEC6892EDD24 /* libPods-everyDay2-everyDay2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1467FE2AFCDB7C0B3740409B /* libPods-everyDay2-everyDay2Tests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		8B7DBDEAFE699D65F784655B /* libPods-everyDay-everyDayTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9206B256CEE3562521C904D7 /* libPods-everyDay-everyDayTests.a */; };
+		C20A2AF35AA3E076E9F893A3 /* libPods-everyDay2-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C81CBCF3AE5A44EB5C3E225F /* libPods-everyDay2-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,45 +28,45 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = everyDay;
+			remoteInfo = everyDay2;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "everyDay-tvOS";
+			remoteInfo = "everyDay2-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* everyDayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = everyDayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* everyDay2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = everyDay2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* everyDayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = everyDayTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* everyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = everyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = everyDay/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = everyDay/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = everyDay/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = everyDay/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = everyDay/main.m; sourceTree = "<group>"; };
-		186F4521FD30C1F4923C7AFE /* libPods-everyDay-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everyDay-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B2CEE2C80C678784698640C /* Pods-everyDay-everyDayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay-everyDayTests.release.xcconfig"; path = "Target Support Files/Pods-everyDay-everyDayTests/Pods-everyDay-everyDayTests.release.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* everyDay-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "everyDay-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* everyDay-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "everyDay-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F4B1C3159DF3AE7C3B92AD9 /* Pods-everyDay-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-everyDay-tvOSTests/Pods-everyDay-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		36836BE5654CBE9DA0F96CDF /* Pods-everyDay-everyDayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay-everyDayTests.debug.xcconfig"; path = "Target Support Files/Pods-everyDay-everyDayTests/Pods-everyDay-everyDayTests.debug.xcconfig"; sourceTree = "<group>"; };
-		653890A00AABF0C91FA207AE /* Pods-everyDay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay.debug.xcconfig"; path = "Target Support Files/Pods-everyDay/Pods-everyDay.debug.xcconfig"; sourceTree = "<group>"; };
-		76724AC1616A5E4827BEBC9E /* Pods-everyDay-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay-tvOS.release.xcconfig"; path = "Target Support Files/Pods-everyDay-tvOS/Pods-everyDay-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		7B1B6417760CE9EF6ACBCCCD /* libPods-everyDay-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everyDay-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = everyDay/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9206B256CEE3562521C904D7 /* libPods-everyDay-everyDayTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everyDay-everyDayTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		92EE622A8D88898AA3D74F50 /* libPods-everyDay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everyDay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2409B205B24F0CC5925FC3A /* Pods-everyDay-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-everyDay-tvOSTests/Pods-everyDay-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		ECFEEF0C1E73763DF80CBEBF /* Pods-everyDay-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-everyDay-tvOS/Pods-everyDay-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* everyDay2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = everyDay2Tests.m; sourceTree = "<group>"; };
+		0177DC5CEFC3A7A49647AA2F /* libPods-everyDay2-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everyDay2-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* everyDay2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = everyDay2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = everyDay2/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = everyDay2/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = everyDay2/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = everyDay2/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = everyDay2/main.m; sourceTree = "<group>"; };
+		1467FE2AFCDB7C0B3740409B /* libPods-everyDay2-everyDay2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everyDay2-everyDay2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A6FDF03D74AFAD3F9F2DCE /* libPods-everyDay2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everyDay2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* everyDay2-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "everyDay2-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* everyDay2-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "everyDay2-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E61B08113585ED662113EF4 /* Pods-everyDay2-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay2-tvOS.release.xcconfig"; path = "Target Support Files/Pods-everyDay2-tvOS/Pods-everyDay2-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		427AF9D3B61C931775CDD860 /* Pods-everyDay2-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay2-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-everyDay2-tvOSTests/Pods-everyDay2-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		4409538B9A232599B3F256E1 /* Pods-everyDay2-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay2-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-everyDay2-tvOSTests/Pods-everyDay2-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56C20932180F0154693AD834 /* Pods-everyDay2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay2.release.xcconfig"; path = "Target Support Files/Pods-everyDay2/Pods-everyDay2.release.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = everyDay2/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E79A2A2ECCBD95DF53C46C8 /* Pods-everyDay2-everyDay2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay2-everyDay2Tests.debug.xcconfig"; path = "Target Support Files/Pods-everyDay2-everyDay2Tests/Pods-everyDay2-everyDay2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3339520EDAC0AFBEBB5E36F /* Pods-everyDay2-everyDay2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay2-everyDay2Tests.release.xcconfig"; path = "Target Support Files/Pods-everyDay2-everyDay2Tests/Pods-everyDay2-everyDay2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C81CBCF3AE5A44EB5C3E225F /* libPods-everyDay2-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-everyDay2-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF1F10F957BCEDA791CB772 /* Pods-everyDay2-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay2-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-everyDay2-tvOS/Pods-everyDay2-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E5C8F5736E1D34CC6537BA8E /* Pods-everyDay2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay2.debug.xcconfig"; path = "Target Support Files/Pods-everyDay2/Pods-everyDay2.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F1DF4B632E0E19809E67D6C2 /* Pods-everyDay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay.release.xcconfig"; path = "Target Support Files/Pods-everyDay/Pods-everyDay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B7DBDEAFE699D65F784655B /* libPods-everyDay-everyDayTests.a in Frameworks */,
+				718621C4CCE1BEC6892EDD24 /* libPods-everyDay2-everyDay2Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				623201A36B41A9D5A833638A /* libPods-everyDay.a in Frameworks */,
+				4D8B65F38D912F72CD39D414 /* libPods-everyDay2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74361D9E38ED36EDCEB42589 /* libPods-everyDay-tvOS.a in Frameworks */,
+				3108849AE9204B57C3142E13 /* libPods-everyDay2-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6356492401291AE324221FF3 /* libPods-everyDay-tvOSTests.a in Frameworks */,
+				C20A2AF35AA3E076E9F893A3 /* libPods-everyDay2-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* everyDayTests */ = {
+		00E356EF1AD99517003FC87E /* everyDay2Tests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* everyDayTests.m */,
+				00E356F21AD99517003FC87E /* everyDay2Tests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = everyDayTests;
+			path = everyDay2Tests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* everyDay */ = {
+		13B07FAE1A68108700A75B9A /* everyDay2 */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = everyDay;
+			name = everyDay2;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,25 +141,25 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				92EE622A8D88898AA3D74F50 /* libPods-everyDay.a */,
-				9206B256CEE3562521C904D7 /* libPods-everyDay-everyDayTests.a */,
-				7B1B6417760CE9EF6ACBCCCD /* libPods-everyDay-tvOS.a */,
-				186F4521FD30C1F4923C7AFE /* libPods-everyDay-tvOSTests.a */,
+				22A6FDF03D74AFAD3F9F2DCE /* libPods-everyDay2.a */,
+				1467FE2AFCDB7C0B3740409B /* libPods-everyDay2-everyDay2Tests.a */,
+				0177DC5CEFC3A7A49647AA2F /* libPods-everyDay2-tvOS.a */,
+				C81CBCF3AE5A44EB5C3E225F /* libPods-everyDay2-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4D760A8522EC29E6947516CB /* Pods */ = {
+		43B5C67E21FD249CCFED43A8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				653890A00AABF0C91FA207AE /* Pods-everyDay.debug.xcconfig */,
-				F1DF4B632E0E19809E67D6C2 /* Pods-everyDay.release.xcconfig */,
-				36836BE5654CBE9DA0F96CDF /* Pods-everyDay-everyDayTests.debug.xcconfig */,
-				2B2CEE2C80C678784698640C /* Pods-everyDay-everyDayTests.release.xcconfig */,
-				ECFEEF0C1E73763DF80CBEBF /* Pods-everyDay-tvOS.debug.xcconfig */,
-				76724AC1616A5E4827BEBC9E /* Pods-everyDay-tvOS.release.xcconfig */,
-				2F4B1C3159DF3AE7C3B92AD9 /* Pods-everyDay-tvOSTests.debug.xcconfig */,
-				E2409B205B24F0CC5925FC3A /* Pods-everyDay-tvOSTests.release.xcconfig */,
+				E5C8F5736E1D34CC6537BA8E /* Pods-everyDay2.debug.xcconfig */,
+				56C20932180F0154693AD834 /* Pods-everyDay2.release.xcconfig */,
+				9E79A2A2ECCBD95DF53C46C8 /* Pods-everyDay2-everyDay2Tests.debug.xcconfig */,
+				B3339520EDAC0AFBEBB5E36F /* Pods-everyDay2-everyDay2Tests.release.xcconfig */,
+				DDF1F10F957BCEDA791CB772 /* Pods-everyDay2-tvOS.debug.xcconfig */,
+				3E61B08113585ED662113EF4 /* Pods-everyDay2-tvOS.release.xcconfig */,
+				4409538B9A232599B3F256E1 /* Pods-everyDay2-tvOSTests.debug.xcconfig */,
+				427AF9D3B61C931775CDD860 /* Pods-everyDay2-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -175,12 +175,12 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* everyDay */,
+				13B07FAE1A68108700A75B9A /* everyDay2 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* everyDayTests */,
+				00E356EF1AD99517003FC87E /* everyDay2Tests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				4D760A8522EC29E6947516CB /* Pods */,
+				43B5C67E21FD249CCFED43A8 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* everyDay.app */,
-				00E356EE1AD99517003FC87E /* everyDayTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* everyDay-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* everyDay-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* everyDay2.app */,
+				00E356EE1AD99517003FC87E /* everyDay2Tests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* everyDay2-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* everyDay2-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,52 +201,52 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* everyDayTests */ = {
+		00E356ED1AD99517003FC87E /* everyDay2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "everyDayTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "everyDay2Tests" */;
 			buildPhases = (
-				ACA9806C61D9631B2370F68B /* [CP] Check Pods Manifest.lock */,
+				C2DF11BAA2575ECCA1A8FC43 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				11CFB5F66FEB0B18E40CF725 /* [CP] Copy Pods Resources */,
+				DAE221B0F0A62F0E53B54D1E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = everyDayTests;
-			productName = everyDayTests;
-			productReference = 00E356EE1AD99517003FC87E /* everyDayTests.xctest */;
+			name = everyDay2Tests;
+			productName = everyDay2Tests;
+			productReference = 00E356EE1AD99517003FC87E /* everyDay2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* everyDay */ = {
+		13B07F861A680F5B00A75B9A /* everyDay2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "everyDay" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "everyDay2" */;
 			buildPhases = (
-				9FDB9BF240C7AFF1EC6F9A8A /* [CP] Check Pods Manifest.lock */,
+				60E42F1B9F67CC4CB8EFAA43 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				B5EBA56D67CA00C7C72DAF68 /* [CP] Copy Pods Resources */,
+				6A9E866869F1C483B2F6D01C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = everyDay;
-			productName = everyDay;
-			productReference = 13B07F961A680F5B00A75B9A /* everyDay.app */;
+			name = everyDay2;
+			productName = everyDay2;
+			productReference = 13B07F961A680F5B00A75B9A /* everyDay2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* everyDay-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* everyDay2-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "everyDay-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "everyDay2-tvOS" */;
 			buildPhases = (
-				1E23B86833D0209FD0FB9477 /* [CP] Check Pods Manifest.lock */,
+				DB05AEAB2DF27CF6EB871835 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -257,16 +257,16 @@
 			);
 			dependencies = (
 			);
-			name = "everyDay-tvOS";
-			productName = "everyDay-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* everyDay-tvOS.app */;
+			name = "everyDay2-tvOS";
+			productName = "everyDay2-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* everyDay2-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* everyDay-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* everyDay2-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "everyDay-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "everyDay2-tvOSTests" */;
 			buildPhases = (
-				1FDAD58E38FD67C68A176F24 /* [CP] Check Pods Manifest.lock */,
+				6F8322E53484312F11C18464 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -276,9 +276,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "everyDay-tvOSTests";
-			productName = "everyDay-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* everyDay-tvOSTests.xctest */;
+			name = "everyDay2-tvOSTests";
+			productName = "everyDay2-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* everyDay2-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -307,7 +307,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "everyDay" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "everyDay2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -320,10 +320,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* everyDay */,
-				00E356ED1AD99517003FC87E /* everyDayTests */,
-				2D02E47A1E0B4A5D006451C7 /* everyDay-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* everyDay-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* everyDay2 */,
+				00E356ED1AD99517003FC87E /* everyDay2Tests */,
+				2D02E47A1E0B4A5D006451C7 /* everyDay2-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* everyDay2-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -377,68 +377,6 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		11CFB5F66FEB0B18E40CF725 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-everyDay-everyDayTests/Pods-everyDay-everyDayTests-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-everyDay-everyDayTests/Pods-everyDay-everyDayTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1E23B86833D0209FD0FB9477 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-everyDay-tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1FDAD58E38FD67C68A176F24 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-everyDay-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,7 +391,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		9FDB9BF240C7AFF1EC6F9A8A /* [CP] Check Pods Manifest.lock */ = {
+		60E42F1B9F67CC4CB8EFAA43 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -468,42 +406,20 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-everyDay-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-everyDay2-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		ACA9806C61D9631B2370F68B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-everyDay-everyDayTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B5EBA56D67CA00C7C72DAF68 /* [CP] Copy Pods Resources */ = {
+		6A9E866869F1C483B2F6D01C /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-everyDay/Pods-everyDay-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-everyDay2/Pods-everyDay2-resources.sh",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -512,7 +428,91 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-everyDay/Pods-everyDay-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-everyDay2/Pods-everyDay2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F8322E53484312F11C18464 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-everyDay2-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2DF11BAA2575ECCA1A8FC43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-everyDay2-everyDay2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE221B0F0A62F0E53B54D1E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-everyDay2-everyDay2Tests/Pods-everyDay2-everyDay2Tests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-everyDay2-everyDay2Tests/Pods-everyDay2-everyDay2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB05AEAB2DF27CF6EB871835 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-everyDay2-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -560,7 +560,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* everyDayTests.m in Sources */,
+				00E356F31AD99517003FC87E /* everyDay2Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,7 +586,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* everyDayTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* everyDay2Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,12 +595,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* everyDay */;
+			target = 13B07F861A680F5B00A75B9A /* everyDay2 */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* everyDay-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* everyDay2-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -608,14 +608,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36836BE5654CBE9DA0F96CDF /* Pods-everyDay-everyDayTests.debug.xcconfig */;
+			baseConfigurationReference = 9E79A2A2ECCBD95DF53C46C8 /* Pods-everyDay2-everyDay2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = everyDayTests/Info.plist;
+				INFOPLIST_FILE = everyDay2Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -625,17 +625,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/everyDay.app/everyDay";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/everyDay2.app/everyDay2";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B2CEE2C80C678784698640C /* Pods-everyDay-everyDayTests.release.xcconfig */;
+			baseConfigurationReference = B3339520EDAC0AFBEBB5E36F /* Pods-everyDay2-everyDay2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = everyDayTests/Info.plist;
+				INFOPLIST_FILE = everyDay2Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -645,19 +645,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/everyDay.app/everyDay";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/everyDay2.app/everyDay2";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 653890A00AABF0C91FA207AE /* Pods-everyDay.debug.xcconfig */;
+			baseConfigurationReference = E5C8F5736E1D34CC6537BA8E /* Pods-everyDay2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = everyDay/Info.plist;
+				INFOPLIST_FILE = everyDay2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -665,7 +665,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = everyDay;
+				PRODUCT_NAME = everyDay2;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -674,12 +674,12 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1DF4B632E0E19809E67D6C2 /* Pods-everyDay.release.xcconfig */;
+			baseConfigurationReference = 56C20932180F0154693AD834 /* Pods-everyDay2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = everyDay/Info.plist;
+				INFOPLIST_FILE = everyDay2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -687,7 +687,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = everyDay;
+				PRODUCT_NAME = everyDay2;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -695,7 +695,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECFEEF0C1E73763DF80CBEBF /* Pods-everyDay-tvOS.debug.xcconfig */;
+			baseConfigurationReference = DDF1F10F957BCEDA791CB772 /* Pods-everyDay2-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -706,14 +706,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "everyDay-tvOS/Info.plist";
+				INFOPLIST_FILE = "everyDay2-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.everyDay-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.everyDay2-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -723,7 +723,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76724AC1616A5E4827BEBC9E /* Pods-everyDay-tvOS.release.xcconfig */;
+			baseConfigurationReference = 3E61B08113585ED662113EF4 /* Pods-everyDay2-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -734,14 +734,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "everyDay-tvOS/Info.plist";
+				INFOPLIST_FILE = "everyDay2-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.everyDay-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.everyDay2-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -751,7 +751,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F4B1C3159DF3AE7C3B92AD9 /* Pods-everyDay-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 4409538B9A232599B3F256E1 /* Pods-everyDay2-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -761,24 +761,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "everyDay-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "everyDay2-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.everyDay-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.everyDay2-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/everyDay-tvOS.app/everyDay-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/everyDay2-tvOS.app/everyDay2-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2409B205B24F0CC5925FC3A /* Pods-everyDay-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 427AF9D3B61C931775CDD860 /* Pods-everyDay2-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -788,17 +788,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "everyDay-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "everyDay2-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.everyDay-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.everyDay2-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/everyDay-tvOS.app/everyDay-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/everyDay2-tvOS.app/everyDay2-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -919,7 +919,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "everyDayTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "everyDay2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -928,7 +928,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "everyDay" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "everyDay2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -937,7 +937,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "everyDay-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "everyDay2-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -946,7 +946,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "everyDay-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "everyDay2-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -955,7 +955,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "everyDay" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "everyDay2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

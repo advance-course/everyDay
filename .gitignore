@@ -28,7 +28,10 @@ build/
 .gradle
 local.properties
 *.iml
-config.json
+
+# Visual Studio Code
+#
+.vscode/
 
 # node.js
 #
@@ -58,3 +61,5 @@ buck-out/
 
 # CocoaPods
 /ios/Pods/
+
+config.json
