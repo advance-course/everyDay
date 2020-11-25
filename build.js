@@ -18,7 +18,7 @@ const sourceConfigData = fs.readFileSync(
 );
 const targetConfigData = {
   ...JSON.parse(sourceConfigData.toString()),
-  ip: getIPAddress(),
+  ip: getIPAddress()
 };
 try {
   fs.writeFileSync(envFilePath, JSON.stringify(targetConfigData, null, 2));

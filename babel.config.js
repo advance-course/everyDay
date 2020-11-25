@@ -8,10 +8,10 @@ module.exports = {
         extensions: ['.ios.js', '.android.js', '.js', '.ts', '.tsx', '.json'],
         alias: {
           components: './src/components',
-          element: './src/components/element',
-        },
-      },
+          element: './src/components/element'
+        }
+      }
     ],
-    ['@babel/plugin-proposal-decorators', {legacy: true}],
-  ],
+    ['@babel/plugin-proposal-decorators', {legacy: true}]
+  ]
 };
