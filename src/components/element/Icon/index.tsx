@@ -1,23 +1,59 @@
-import React from 'react'
-import {Text, View} from 'react-native';
+import React,{useState,useEffect} from "react"
+import {View,Animated, Easing,StyleSheet} from "react-native"
+import map from 'element/Icon/map';
+import {IIcon} from "./Icon"
 
-function nameDecorator(target: any, key: any, descriptor: any) {
-  descriptor.value = () => {
-    return 'jake';
-  };
-  return descriptor;
+const Icon : React.FC<IIcon> = ({type, fontSize = 30, color, style, spin, ...props}) => {
+
+  let [rotateValue]  = useState(new Animated.Value(0));
+  useEffect(()=>{
+    if(!spin) return;
+    rotateValue.setValue(0);
+    spinLoop();
+  },[])
+
+  const spinLoop = ()=>{
+    Animated.loop(
+      Animated.timing(
+        rotateValue,
+        {
+         toValue:360, 
+         duration: 1200,
+         easing: Easing.linear,
+         useNativeDriver:true
+        }
+      ),
+        {iterations: -1}
+    ).start();
+  }
+  
+  return (
+    <View  style={[style,styles.container,{width:fontSize,height:fontSize}]}>
+      <Animated.Text 
+        {...props} 
+        style={[
+          {fontFamily: 'iconfont' },
+          {fontSize},
+          {color},
+          {transform:
+            [
+             {'rotate': rotateValue.interpolate({inputRange: [0, 360],outputRange: ['0deg', '360deg']})}
+            ]}]}>
+        {map[type]}
+      </Animated.Text>
+    </View>
+  )
 }
 
-export default class Icon extends React.Component {
-  @nameDecorator
-  getName() {
-    console.log('hello');
-  }
-  render() {
-    return (
-      <View>
-        <Text>Icon 组件</Text>
-      </View>
-    );
-  }
-}
+export const styles = StyleSheet.create({
+  container:{
+    width:30,
+    height:30,
+    position:'relative',
+    display:'flex',
+    justifyContent:'center',
+    alignItems:'center',
+  },
+})
+
+export default Icon;
