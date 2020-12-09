@@ -15,33 +15,22 @@ interface ButtonProps {
 }
 
 interface PressableProp {
-  pressed: boolean,
+  pressed: boolean;
 }
 
 const defaultPressCallback = () => {};
-const defaultProps = {
-  type: 'default',
-  plain: false,
-  disabled: false,
-  round: false,
-  size: 'normal',
-  style: {},
-  onPress: defaultPressCallback,
-  onLongPress: defaultPressCallback,
-};
 
-export default function Ibutton(props: ButtonProps) {
-  const {
-    title,
-    type,
-    onPress,
-    onLongPress,
-    disabled,
-    plain,
-    round,
-    size,
-    style,
-  } = {...defaultProps, ...props};
+export default function Ibutton({
+  title = '',
+  type = 'default',
+  plain = false,
+  disabled = false,
+  round = false,
+  size = 'normal',
+  style = {},
+  onPress = defaultPressCallback,
+  onLongPress = defaultPressCallback
+}: ButtonProps) {
 
   const styles = combineTheme(type, plain, disabled, round, size, style);
 
@@ -50,10 +39,10 @@ export default function Ibutton(props: ButtonProps) {
       onPress={onPress}
       disabled={disabled}
       onLongPress={onLongPress}
-      style={({pressed}:PressableProp) => [
+      style={({pressed}: PressableProp) => [
         {
-          opacity: pressed ? 0.7 : 1,
-        },
+          opacity: pressed ? 0.7 : 1
+        }
       ]}>
       <Text style={styles}>{title}</Text>
     </Pressable>
