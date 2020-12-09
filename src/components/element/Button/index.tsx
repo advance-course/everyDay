@@ -1,25 +1,61 @@
-import { StackNavigationProp } from '@react-navigation/stack'
-import React from 'react'
-import {Button, Text, View} from 'react-native'
-import {RooteStackParamList} from 'App'
-import { RouteProp } from '@react-navigation/core'
-
-type Props = {
-  navigation: StackNavigationProp<RooteStackParamList>,
-  route: RouteProp<RooteStackParamList, 'Details'>
+import React from 'react';
+import {Pressable, Text, PressableProps} from 'react-native';
+import {combineTheme} from './theme';
+interface ButtonProps {
+  title?: string;
+  onPress?: PressableProps['onPress'];
+  onLongPress?: PressableProps['onLongPress'];
+  color?: string;
+  disabled?: boolean;
+  type?: string;
+  plain?: boolean;
+  round?: boolean;
+  size?: string;
+  style?: object;
 }
 
-export default function Details({navigation, route}: Props) {
-  console.log(route)
+interface PressableProp {
+  pressed: boolean,
+}
+
+const defaultPressCallback = () => {};
+const defaultProps = {
+  type: 'default',
+  plain: false,
+  disabled: false,
+  round: false,
+  size: 'normal',
+  style: {},
+  onPress: defaultPressCallback,
+  onLongPress: defaultPressCallback,
+};
+
+export default function Ibutton(props: ButtonProps) {
+  const {
+    title,
+    type,
+    onPress,
+    onLongPress,
+    disabled,
+    plain,
+    round,
+    size,
+    style,
+  } = {...defaultProps, ...props};
+
+  const styles = combineTheme(type, plain, disabled, round, size, style);
+
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Details Screen</Text>
-      <Button title="Go to Home" onPress={() => navigation.navigate('Home', {})} />
-      <Button title="Go back" onPress={() => navigation.goBack()} />
-      <Button
-        title="Go back to first screen in stack"
-        onPress={() => navigation.popToTop()}
-      />
-    </View>
-  )
+    <Pressable
+      onPress={onPress}
+      disabled={disabled}
+      onLongPress={onLongPress}
+      style={({pressed}:PressableProp) => [
+        {
+          opacity: pressed ? 0.7 : 1,
+        },
+      ]}>
+      <Text style={styles}>{title}</Text>
+    </Pressable>
+  );
 }
