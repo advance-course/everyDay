@@ -1,5 +1,5 @@
 apply plugin: "com.android.application"
-
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 import com.android.build.OutputFile
 
 /**
@@ -78,7 +78,11 @@ import com.android.build.OutputFile
  */
 
 project.ext.react = [
-    enableHermes: false,  // clean and rebuild if changing
+    // enableHermes: false,  // clean and rebuild if 
+    entryFile: "index.js",
+    bundleAssetName: "index.android.bundle",
+    bundleInDebug: true,
+    bundleInRelease: true
 ]
 
 apply from: "../../node_modules/react-native/react.gradle"

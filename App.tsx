@@ -4,7 +4,6 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'
 import Home from 'pages/Home'
 import Explore from 'pages/Explore'
 import Profile from 'pages/Profile'
-
 declare const global: {HermesInternal: null | {}};
 
 export type RooteStackParamList = {
