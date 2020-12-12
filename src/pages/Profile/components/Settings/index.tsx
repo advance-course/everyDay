@@ -5,7 +5,7 @@ export default function Settings({navigation}) {
   return (
     <View style={st.container}>
       <Text>设置 - 个人信息页</Text>
-      <Button title="确定" onPress={() => navigation.navigate('Details')} />
+      <Button title="确定" onPress={() => navigation.navigate('Proview')} />
     </View>
   )
 }

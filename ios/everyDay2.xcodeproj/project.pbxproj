@@ -16,6 +16,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* everyDay2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* everyDay2Tests.m */; };
 		3108849AE9204B57C3142E13 /* libPods-everyDay2-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0177DC5CEFC3A7A49647AA2F /* libPods-everyDay2-tvOS.a */; };
+		3F7BECCE257F6D6300FC2297 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F7BECCD257F6D6300FC2297 /* iconfont.ttf */; };
 		4D8B65F38D912F72CD39D414 /* libPods-everyDay2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A6FDF03D74AFAD3F9F2DCE /* libPods-everyDay2.a */; };
 		718621C4CCE1BEC6892EDD24 /* libPods-everyDay2-everyDay2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1467FE2AFCDB7C0B3740409B /* libPods-everyDay2-everyDay2Tests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -56,6 +57,8 @@
 		2D02E47B1E0B4A5D006451C7 /* everyDay2-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "everyDay2-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* everyDay2-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "everyDay2-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E61B08113585ED662113EF4 /* Pods-everyDay2-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay2-tvOS.release.xcconfig"; path = "Target Support Files/Pods-everyDay2-tvOS/Pods-everyDay2-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3F7BECCC257F693600FC2297 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		3F7BECCD257F6D6300FC2297 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = iconfont.ttf; path = Fonts/iconfont.ttf; sourceTree = "<group>"; };
 		427AF9D3B61C931775CDD860 /* Pods-everyDay2-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay2-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-everyDay2-tvOSTests/Pods-everyDay2-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		4409538B9A232599B3F256E1 /* Pods-everyDay2-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay2-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-everyDay2-tvOSTests/Pods-everyDay2-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		56C20932180F0154693AD834 /* Pods-everyDay2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-everyDay2.release.xcconfig"; path = "Target Support Files/Pods-everyDay2/Pods-everyDay2.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,6 +152,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3F7BECCB257F693600FC2297 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3F7BECCC257F693600FC2297 /* iconfont.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		43B5C67E21FD249CCFED43A8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,7 +172,6 @@
 				4409538B9A232599B3F256E1 /* Pods-everyDay2-tvOSTests.debug.xcconfig */,
 				427AF9D3B61C931775CDD860 /* Pods-everyDay2-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,6 +185,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				3F7BECCD257F6D6300FC2297 /* iconfont.ttf */,
+				3F7BECCB257F693600FC2297 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* everyDay2 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* everyDay2Tests */,
@@ -340,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7BECCE257F6D6300FC2297 /* iconfont.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);

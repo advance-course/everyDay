@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
-
+import Icon from "element/Icon"
 export default function Details() {
   return (
     <View style={st.container}>
