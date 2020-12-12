@@ -1,6 +1,8 @@
 interface STYLE {
-  [typs: string]: string | Object;
+  [typs: string]: string | number | Object;
 }
+
+type NormalObject = STYLE;
 
 const THEME: STYLE = {
   primary: '#07c160',
@@ -55,12 +57,35 @@ const defaultStyle = {
   fontSize: 14,
 };
 
-const tileToObject = (style: object) => {
+const isObject = (object: Object) => { return Object.prototype.toString.call(object) === '[object object]'};
+
+const checkObject = (item: any) => {
+  let tempItem:NormalObject = {};
+  let keys = Object.keys(item);
+  keys.forEach(key => {
+    if (typeof item[key] === 'string' || typeof item[key] === 'number' || isObject(item[key])) {
+      tempItem[key] = item[key];
+    }
+  });
+  return tempItem;
+}
+
+const checkArray = (array: NormalObject[]) => {
+  let temp:NormalObject[] = [];
+  array.forEach(item => {
+    if (isObject(item)) {
+      temp.push(checkObject(item));
+    }
+  })
+  return temp;
+}
+
+const tileToObject = (style: Object) => {
   let tempObject = {};
   if (Array.isArray(style)) {
-    Object.assign(tempObject, ...style);
-  } else {
-    Object.assign(tempObject, style);
+    Object.assign(tempObject, ...checkArray(style));
+  } else if (isObject(style)){
+    Object.assign(tempObject, checkObject(style));
   }
   return tempObject;
 };
