@@ -58,6 +58,7 @@ const Details = () => {
         <Text style={styles.text}>icon按钮</Text>
         <View style={styles.directWrap}>
           <Ibutton title="主要按钮" icon="jiazai" size="normal" type="primary" />
+          <Ibutton title="主要按钮" loading size="normal" type="primary" />
         </View>
         <Text style={styles.text}>附加样式</Text>
         <View style={styles.directWrap}>
@@ -105,7 +106,10 @@ const styles = StyleSheet.create({
     borderColor: '#1890ff'
   },
   text: {
-    marginVertical: 10
+    marginVertical: 10,
+    borderColor: '#1890ff',
+    paddingLeft: 10,
+    borderLeftWidth: 2,
   },
   buttonMarginHorizontal: {
     marginHorizontal: 10

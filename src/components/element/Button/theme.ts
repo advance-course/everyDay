@@ -98,6 +98,7 @@ export function combineTheme(
   disabled: boolean,
   round: boolean,
   size: string,
+  loading: boolean,
   style: object
 ): StyleObject {
   let combineStyle: STYLE = {};
@@ -123,6 +124,13 @@ export function combineTheme(
       borderColor: '#d9d9d9',
       color: 'rgba(0,0,0,.25)',
       backgroundColor: '#f5f5f5'
+    };
+    themes.push(theme);
+  }
+
+  if (loading) {
+    let theme = {
+      opacity: 0.7
     };
     themes.push(theme);
   }

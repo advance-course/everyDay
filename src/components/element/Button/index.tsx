@@ -14,6 +14,7 @@ interface ButtonProps {
   icon?: string;
   round?: boolean;
   size?: string;
+  loading?: boolean,
   style?: object;
 }
 
@@ -33,19 +34,20 @@ export default function Ibutton({
   size = 'normal',
   style = {},
   icon = '',
+  loading = false,
   onPress = defaultPressCallback,
   onLongPress = defaultPressCallback,
   ...otherProps
 }: ButtonProps) {
-  const styles = combineTheme(type, plain, text, disabled, round, size, style);
-  const iconComponet = (iconType: any, iconStyle: object) => {
-    return iconType ? <Icon type={iconType} style={iconStyle} /> : <></>;
+  const styles = combineTheme(type, plain, text, disabled, round, size, loading, style);
+  const iconComponet = (iconType: any, iconStyle: object, isLoading: boolean) => {
+    return iconType || loading ? <Icon type={isLoading ? 'jiazai' : iconType} spin={isLoading} style={iconStyle} /> : <></>;
   };
   return (
     <Pressable
       {...otherProps}
       onPress={onPress}
-      disabled={disabled}
+      disabled={loading ? true : disabled}
       onLongPress={onLongPress}
       style={({pressed}: PressableProp) => [
         {
@@ -53,7 +55,7 @@ export default function Ibutton({
         }
       ]}>
       <View style={[styles.boxStyle, normalStyle.flexCenter]}>
-        {iconComponet(icon, styles.textStyle)}
+        {iconComponet(icon, styles.textStyle, loading)}
         <Text style={[styles.textStyle]}>{title}</Text>
       </View>
     </Pressable>
