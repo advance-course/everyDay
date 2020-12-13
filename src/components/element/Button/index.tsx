@@ -9,6 +9,7 @@ interface ButtonProps {
   disabled?: boolean;
   type?: string;
   plain?: boolean;
+  text?: boolean;
   round?: boolean;
   size?: string;
   style?: object;
@@ -24,18 +25,21 @@ export default function Ibutton({
   title = '',
   type = 'default',
   plain = false,
+  text = false,
   disabled = false,
   round = false,
   size = 'normal',
   style = {},
   onPress = defaultPressCallback,
-  onLongPress = defaultPressCallback
+  onLongPress = defaultPressCallback,
+  ...otherProps
 }: ButtonProps) {
 
-  const styles = combineTheme(type, plain, disabled, round, size, style);
+  const styles = combineTheme(type, plain,  text, disabled, round, size, style);
 
   return (
     <Pressable
+      {...otherProps}
       onPress={onPress}
       disabled={disabled}
       onLongPress={onLongPress}
