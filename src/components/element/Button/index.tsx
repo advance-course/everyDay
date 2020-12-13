@@ -1,6 +1,7 @@
 import React from 'react';
-import {Pressable, Text, PressableProps} from 'react-native';
+import {Pressable, Text, PressableProps, StyleSheet, View} from 'react-native';
 import {combineTheme} from './theme';
+import Icon from 'element/Icon';
 interface ButtonProps {
   title?: string;
   onPress?: PressableProps['onPress'];
@@ -10,6 +11,7 @@ interface ButtonProps {
   type?: string;
   plain?: boolean;
   text?: boolean;
+  icon?: string;
   round?: boolean;
   size?: string;
   style?: object;
@@ -30,13 +32,15 @@ export default function Ibutton({
   round = false,
   size = 'normal',
   style = {},
+  icon = '',
   onPress = defaultPressCallback,
   onLongPress = defaultPressCallback,
   ...otherProps
 }: ButtonProps) {
-
-  const styles = combineTheme(type, plain,  text, disabled, round, size, style);
-
+  const styles = combineTheme(type, plain, text, disabled, round, size, style);
+  const iconComponet = (iconType: any, iconStyle: object) => {
+    return iconType ? <Icon type={iconType} style={iconStyle} /> : <></>;
+  };
   return (
     <Pressable
       {...otherProps}
@@ -48,7 +52,18 @@ export default function Ibutton({
           opacity: pressed ? 0.7 : 1
         }
       ]}>
-      <Text style={styles}>{title}</Text>
+      <View style={[styles.boxStyle, normalStyle.flexCenter]}>
+        {iconComponet(icon, styles.textStyle)}
+        <Text style={[styles.textStyle]}>{title}</Text>
+      </View>
     </Pressable>
   );
 }
+
+const normalStyle = StyleSheet.create({
+  flexCenter: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center'
+  }
+});

@@ -42,6 +42,7 @@ const Details = () => {
           <Ibutton title="危险按钮" disabled type="danger" />
           <Ibutton title="警告按钮" disabled type="warning" />
           <Ibutton title="默认按钮" disabled />
+          <Ibutton title="文本按钮" text disabled />
         </View>
         <Text style={styles.text}>按钮形状</Text>
         <View style={styles.directWrap}>
@@ -54,18 +55,30 @@ const Details = () => {
           <Ibutton title="信息按钮" size="small" type="info" />
           <Ibutton title="危险按钮" size="mini" type="danger" />
         </View>
+        <Text style={styles.text}>icon按钮</Text>
+        <View style={styles.directWrap}>
+          <Ibutton title="主要按钮" icon="jiazai" size="normal" type="primary" />
+        </View>
         <Text style={styles.text}>附加样式</Text>
         <View style={styles.directWrap}>
           <Ibutton
             title="主要按钮"
-            style={styles.buttonMargin}
+            style={[styles.buttonMarginHorizontal, styles.buttonMarginVertical]}
             type="primary"
           />
-          <Ibutton title="信息按钮" style={styles.buttonMargin} type="info" />
-          <Ibutton title="危险按钮" style={styles.buttonMargin} type="danger" />
+          <Ibutton
+            title="信息按钮"
+            style={styles.buttonMarginHorizontal}
+            type="info"
+          />
+          <Ibutton
+            title="危险按钮"
+            style={[styles.buttonMarginVertical, {marginHorizontal: 10}]}
+            type="danger"
+          />
           <Ibutton
             title="警告按钮"
-            style={styles.buttonMargin}
+            style={{marginVertical: 10}}
             type="warning"
           />
         </View>
@@ -77,14 +90,14 @@ const Details = () => {
 const styles = StyleSheet.create({
   box: {
     paddingHorizontal: 10,
-    backgroundColor: '#fff',
+    backgroundColor: '#fff'
   },
   title: {
     paddingVertical: 30,
     paddingLeft: 20,
     textAlign: 'center',
     backgroundColor: '#f8f8f8',
-    flexDirection: 'row',
+    flexDirection: 'row'
   },
   titleText: {
     fontSize: 24,
@@ -92,16 +105,18 @@ const styles = StyleSheet.create({
     borderColor: '#1890ff'
   },
   text: {
-    marginVertical: 10,
+    marginVertical: 10
   },
-  buttonMargin: {
-    marginHorizontal: 10,
-    marginVertical: 10,
+  buttonMarginHorizontal: {
+    marginHorizontal: 10
+  },
+  buttonMarginVertical: {
+    marginVertical: 10
   },
   directWrap: {
     flexDirection: 'row',
-    flexWrap: 'wrap',
-  },
+    flexWrap: 'wrap'
+  }
 });
 
 export default Details;

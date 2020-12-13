@@ -1,10 +1,12 @@
-import Reactotron from 'reactotron-react-native';
-
 interface STYLE {
   [typs: string]: string | number | Object;
 }
 
 type NormalObject = STYLE;
+
+interface StyleObject {
+  [typs: string]: object 
+}
 
 const THEME: STYLE = {
   primary: '#07c160',
@@ -80,7 +82,7 @@ const checkArray = (array: NormalObject[]) => {
 };
 
 const tileToObject = (style: Object) => {
-  let tempObject = {}
+  let tempObject = {};
   if (Array.isArray(style)) {
     Object.assign(tempObject, ...checkArray(style));
   } else if (isObject(style)) {
@@ -97,8 +99,8 @@ export function combineTheme(
   round: boolean,
   size: string,
   style: object
-): STYLE {
-  let combineStyle = {};
+): StyleObject {
+  let combineStyle: STYLE = {};
   let themes = [];
   if (THEME[type]) {
     let theme = {
@@ -115,18 +117,20 @@ export function combineTheme(
     };
     themes.push(theme);
   }
-  if (text) {
+
+  if (disabled) {
     let theme = {
-      backgroundColor: 'rgba(0,0,0,0)',
-      color: THEME[type],
-      borderWidth: 0
+      borderColor: '#d9d9d9',
+      color: 'rgba(0,0,0,.25)',
+      backgroundColor: '#f5f5f5'
     };
     themes.push(theme);
   }
 
-  if (disabled) {
+  if (text) {
     let theme = {
-      opacity: 0.5,
+      backgroundColor: 'rgba(0,0,0,0)',
+      color: 'rgba(0,0,0,.25)',
       borderWidth: 0
     };
     themes.push(theme);
@@ -146,8 +150,6 @@ export function combineTheme(
     };
     themes.push(theme);
   }
-  
-  Reactotron.log(tileToObject(style));
   combineStyle = Object.assign(
     {},
     defaultStyle,
@@ -155,5 +157,12 @@ export function combineTheme(
     tileToObject(style)
   );
 
-  return combineStyle;
+  return {
+    boxStyle: combineStyle,
+    textStyle: {
+      color: combineStyle.color,
+      lineHeight: combineStyle.lineHeight,
+      fontSize: combineStyle.fontSize
+    }
+  };
 }
