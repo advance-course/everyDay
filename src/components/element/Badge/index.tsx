@@ -9,6 +9,7 @@ interface Props {
   color?: string,
   backgroundColor?: string,
   borderColor?: string,
+  showZero?: boolean,
 }
 
 const Badge: React.FC<Props> = (props) => {
@@ -23,8 +24,20 @@ const Badge: React.FC<Props> = (props) => {
       }
     </Text>
   </View>;
-  if (!props.count && !props.isDot || props.count && typeof props.count === 'number' && props.count === 0 || props.isDot && !props.children) {
+  if ((props.count === undefined) && !props.isDot || props.isDot && !props.children) {
     return null;
+  }
+
+  if (typeof props.count === 'number' && (props.count < 0 || !props.showZero && (props.count === 0))) {
+    if (props.children) {
+      return (
+        <View>
+          {props.children}
+        </View>
+      )
+    }
+    return null
+
   }
   if (props.children) {
     return (
