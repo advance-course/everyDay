@@ -1,10 +1,9 @@
 import React from "react";
 import { StyleSheet,Text,SafeAreaView } from "react-native";
-import Icon from "element/Icon"
-export default function Proview(){
+export default function Button(){
   return (
     <SafeAreaView style={st.container}>
-      <Text>123</Text>
+      <Text>button</Text>
     </SafeAreaView>
   )
 }

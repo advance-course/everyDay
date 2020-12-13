@@ -13,7 +13,7 @@ const data:Iproview[] = [
    iconName:'feather-blur-light',
    title:'基础',
    description:'包含颜色,文本,图标等',
-   to:'/icon'
+   to:'Button'
  },
  {
    iconName:'jiazai',

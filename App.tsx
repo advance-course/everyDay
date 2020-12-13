@@ -7,6 +7,7 @@ import Explore from 'pages/Explore'
 import Profile from 'pages/Profile'
 import Proview from "pages/Proview"
 import Icon from "pages/Proview/compoents/Icon"
+import Button from "pages/Proview/compoents/Button"
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
         <Stack.Screen name="Tabs" component={Tabs} />
         <Stack.Screen name="Proview" component={Proview}/>
         <Stack.Screen name="Icon" component={Icon} />
+        <Stack.Screen name="Button" component={Button} />
       </Stack.Navigator>
     </NavigationContainer>
   );
