@@ -9,22 +9,36 @@ import Icon from "components/element/Icon"
 import { proview } from "./src/routers"
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
+
 const App = () => {
-  const Tabs = () =>(
-    <Tab.Navigator screenOptions={(route)=>({
+  const Tabs = () => {
+    const maping = {
+      'Home':'首页',
+      'Explore':'发现',
+      'Profile':'个人',
+    }
+    return <Tab.Navigator screenOptions={(r)=>({
+      tabBarLabel:maping[r.route.name as keyof typeof maping],
       tabBarIcon:() => {
-        console.log(route)
         return <Icon type={'xin'} fontSize={26} color={"#8ab4f8"} />;
       }
     })}>
-      <Tab.Screen name="Home" component={Home} />
+      <Tab.Screen name="Home"    component={Home}  />
       <Tab.Screen name="Explore" component={Explore} />
       <Tab.Screen name="Profile" component={Profile} />
     </Tab.Navigator> 
-  )
+  }
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Tabs">
+      <Stack.Navigator initialRouteName="Tabs" screenOptions={(r)=>{
+        let name = r.route.name;
+        let visiable = name === "Tabs";
+        let route = proview.find(item => item.path === name)
+        return {
+          headerTitle: visiable ? "" : route?.name,
+          headerBackTitleVisible: false
+        };
+      }}>
         <Stack.Screen name="Tabs" component={Tabs} />
         {
           proview.map(item => <Stack.Screen name={item.path} component={item.component} key={item.name} />)

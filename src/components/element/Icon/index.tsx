@@ -28,7 +28,7 @@ const Icon : React.FC<IIcon> = ({type, fontSize = 30, color, style, spin, ...pro
   }
   
   return (
-    <View  style={[style,styles.container,{width:fontSize,height:fontSize}]}>
+    <View  style={[styles.container,{width:fontSize,height:fontSize},style]}>
       <Animated.Text 
         {...props} 
         style={[
