@@ -1,18 +1,20 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
-import {createStackNavigator} from '@react-navigation/stack'
-import Settings from './components/Settings'
-import Details from './components/Details'
-import Proview from "../Proview"
-const ProfileStack = createStackNavigator()
+import { Button, StyleSheet, Text, View } from 'react-native'
 
-export default function Profile() {
+export default function Profile({navigation}:any) {
   return (
-    <ProfileStack.Navigator>
-      <ProfileStack.Screen name="Settings" component={Settings} />
-      <ProfileStack.Screen name="Proview" component={Proview}/>
-      <ProfileStack.Screen name="Details" component={Details} />
-    </ProfileStack.Navigator>
+    <View style={st.container}>
+      <Text>UI预览页</Text>
+      <Button title="确定" onPress={() => navigation.navigate('Proview')} />
+    </View>
   )
 }
+const st = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
+  }
+})
+
 

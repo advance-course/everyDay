@@ -1,22 +1,19 @@
 import React from "react";
-import {createStackNavigator} from '@react-navigation/stack'
-import { StyleSheet,Text, View,SafeAreaView ,FlatList,ListRenderItem} from "react-native";
+import { StyleSheet,Text, View,SafeAreaView ,FlatList,ListRenderItem,TouchableHighlight} from "react-native";
 import Icon from "element/Icon"
 import { Iproview } from "./proview"
-import IconProview from "./compoents/IconPage"
-const ProfileStack = createStackNavigator()
 const data:Iproview[] = [
  {
    iconName:'tongzhi',
    title:'基础',
    description:'包含颜色,文本,图标等',
-   to:'/icon'
+   to:'Icon'
  },
  {
    iconName:'feather-blur-light',
    title:'基础',
    description:'包含颜色,文本,图标等',
-   to:'/icon'
+   to:'Button'
  },
  {
    iconName:'jiazai',
@@ -56,34 +53,25 @@ const data:Iproview[] = [
  },
 ];
 
-export default function Proview(){
+export default function Proview({navigation}:any){
   const renderItem:ListRenderItem<Iproview> = (item) => (
-    <View style={st.item}>
-      <View style={st.leftWrap}>
-        <View style={st.leftIcon}>
-          <Icon type={item.item.iconName} color={"#a4b9df"} fontSize={20}></Icon>
+    <TouchableHighlight onPress={() => navigation.navigate(item.item.to)} underlayColor={'none'}>
+      <View style={st.item} >
+        <View style={st.leftWrap}>
+          <View style={st.leftIcon}>
+            <Icon type={item.item.iconName} color={"#a4b9df"} fontSize={20}></Icon>
+          </View>
+          <View style={st.leftContent}>
+          <Text style={st.contentTitle}>{item.item.title}</Text>
+          <Text style={st.contentDescription}>{item.item.description}</Text>
+          </View>
         </View>
-        <View style={st.leftContent}>
-        <Text style={st.contentTitle}>{item.item.title}</Text>
-        <Text style={st.contentDescription}>{item.item.description}</Text>
+        <View style={st.rightWrap}>
+          <Icon type={"zuoyoujiantou"} fontSize={16} color={"#fff"} />
         </View>
       </View>
-      <View style={st.rightWrap}>
-        <Icon type={"zuoyoujiantou"} fontSize={16} color={"#fff"} />
-      </View>
-    </View>
+    </TouchableHighlight>
  );
- const proview = () => {
-   return (
-    <SafeAreaView style={st.container}>
-    <FlatList 
-      data={data} 
-      renderItem={renderItem}
-      keyExtractor={item => item.iconName}>
-    </FlatList>
-  </SafeAreaView>
-   )
- }
   return (
     <SafeAreaView style={st.container}>
     <FlatList 
