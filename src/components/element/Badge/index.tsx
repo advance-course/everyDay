@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import classNames from './classNames';
+import classnames from './classnames';
 
 interface Props {
   count?: number | string,
@@ -14,9 +14,9 @@ interface Props {
 
 const Badge: React.FC<Props> = (props) => {
   const defaultMax = 99;
-  const style = classNames(styles.view, { backgroundColor: props.backgroundColor, borderColor: props.borderColor });
-  const textStyle = classNames(styles.innerText, { color: props.color });
-  const dotStyle = classNames(styles.dot, { backgroundColor: props.backgroundColor });
+  const style = classnames(styles.view, { backgroundColor: props.backgroundColor, borderColor: props.borderColor });
+  const textStyle = classnames(styles.innerText, { color: props.color });
+  const dotStyle = classnames(styles.dot, { backgroundColor: props.backgroundColor });
   const base = <View style={style}>
     <Text style={textStyle} ellipsizeMode="tail">
       {
