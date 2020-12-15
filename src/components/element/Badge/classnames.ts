@@ -8,11 +8,11 @@ const type = (src: any) => {
     return '';
 }
 
-const set = (obj: any):object => {
+const set = (obj: any): object => {
     const res = {};
     for (var key in obj) {
-        if (Object.prototype.hasOwnProperty.call(obj, key) && obj[key]) {
-            res[key] = obj[key];
+        if (Object.prototype.hasOwnProperty.call(obj, key)) {
+            obj[key] && (res[key] = obj[key]);
         }
     }
     return res
@@ -20,18 +20,16 @@ const set = (obj: any):object => {
 
 function classnames(...args: any): any {
     return args.reduce((res: any, current: any) => {
-        console.log(type(current))
         if (type(current) === 'object') {
             Object.assign(res, set(current))
         }
         if (type(current) === 'array') {
-            current.map((value: any) => {
+            current.reduce((ares: any, value: any) => {
                 if (type(value) === 'object') {
                     Object.assign(res, set(value))
                 }
-            })
+            }, res)
         }
-        console.log(res)
         return res;
     }, {});
 }
