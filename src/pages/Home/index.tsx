@@ -1,12 +1,13 @@
-import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import React from 'react';
+import {StyleSheet, Text, View} from 'react-native';
+import Reactotron from 'reactotron-react-native';
 
 export default function Home() {
   return (
     <View style={st.container}>
       <Text>首页</Text>
     </View>
-  )
+  );
 }
 
 const st = StyleSheet.create({
@@ -15,4 +16,4 @@ const st = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center'
   }
-})
+});

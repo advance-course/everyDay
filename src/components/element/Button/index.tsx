@@ -2,6 +2,7 @@ import React from 'react';
 import {Pressable, Text, PressableProps, StyleSheet, View} from 'react-native';
 import {combineTheme} from './theme';
 import Icon from 'element/Icon';
+import Reactotron from 'reactotron-react-native';
 interface ButtonProps {
   title?: string;
   onPress?: PressableProps['onPress'];
